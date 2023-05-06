@@ -1,0 +1,264 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+html {
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #FFFFFF;
+    display: flex;
+    min-height: 100vh;
+
+}
+
+img {
+    margin-right: 2%;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+    padding: 2% 2% 2% 0%;
+}
+
+p {
+    font-size: 12px;
+    padding-bottom: 15%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.label {
+    display: flex;
+    padding: 2% 2% 2% 0%;
+
+}
+
+
+.input_box {
+    width: 625px;
+    height: 40px;
+    padding-right: 2%;
+}
+
+.terms {
+    margin-top: 7%;
+    margin-bottom: 7%;
+
+}
+
+button {
+    background: #ffB703;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    transition: all 0.2s;
+    width: 370px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #ffb703;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.error input {
+    border-color: red
+}
+
+.error {
+    color: red;
+    font-size: 9px;
+}
+
+@media (max-width: 767px) {
+    .form {
+
+        width: 80%;
+    }
+
+    img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 28px;
+        padding: 5% 2% 0% 0%;
+    }
+
+    .input_box {
+        width: 100%;
+    }
+
+    button {
+        width: 80%;
+    }
+}
+
+/* For screens larger than 768px */
+@media (min-width: 768px) {
+    .form {
+
+        width: 50%;
+        padding-right: 2%;
+    }
+
+    img {
+        margin-right: 2%;
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 28px;
+        padding: 2% 2% 2% 0%;
+    }
+
+    .input_box {
+        width: 100%;
+    }
+
+    button {
+        width: 370px;
+    }
+}

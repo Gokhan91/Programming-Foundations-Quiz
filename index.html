@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&family=Raleway:wght@800&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <script defer src="app.js"></script>
+    <title>Programming Foundations Quiz</title>
+</head>
+
+<body>
+
+    <img src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        alt="coding image">
+
+    <div class="form">
+        <h1>Sign-in</h1>
+        <p>Don't have an account? <span style="color: #219EBC"> Create your account,</span> it takes less than a minute.
+        </p>
+
+        <form action="/sign_in" id="form">
+            <div class="inputs">
+                <label for="full_name" class="label">Full Name</label>
+                <input class="input_box" type="text" name="full_name" id="full_name">
+                <div class="error"></div>
+            </div>
+            <div class="inputs">
+                <label for="email" class="label">Email</label>
+                <input class="input_box" type="email" name="email" id="email">
+                <div class="error"></div>
+            </div>
+            <div class="inputs">
+                <label for="password" class="label">Password</label>
+                <input class="input_box" type="password" id="password" name="password">
+                <div class=" error">
+                </div>
+            </div>
+            <div class=terms style="color: #DDDDDD">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">I Accept terms and conditions & privacy policy</label>
+            </div>
+            <button type="submit">LOGIN</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
